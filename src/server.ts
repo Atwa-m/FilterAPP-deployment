@@ -37,7 +37,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     res.send("try GET /filteredimage?image_url={{}}")
   } );
   //ImageFilter endpoint
-  app.get("/filteredimage",async (req ,res) => {
+  app.get("/filteredimage",async (req:express.Request ,res:express.Response) => {
     let { image_url } = req.query;
 
     if(!image_url){

@@ -1,1 +1,1 @@
-# Project Udacity submission
+Filter app deployment on AWS
